@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build' ]
+2 info using npm@5.5.1
+3 info using node@v6.11.4
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle platzom@0.1.0~prebuild: platzom@0.1.0
+6 info lifecycle platzom@0.1.0~build: platzom@0.1.0
+7 verbose lifecycle platzom@0.1.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle platzom@0.1.0~build: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/wilmer/WWW/platzom/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+9 verbose lifecycle platzom@0.1.0~build: CWD: /home/wilmer/WWW/platzom
+10 silly lifecycle platzom@0.1.0~build: Args: [ '-c', 'babel src/platzom.js -d dist' ]
+11 silly lifecycle platzom@0.1.0~build: Returned: code: 1  signal: null
+12 info lifecycle platzom@0.1.0~build: Failed to exec build script
+13 verbose stack Error: platzom@0.1.0 build: `babel src/platzom.js -d dist`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:280:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at EventEmitter.emit (events.js:191:7)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:920:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+14 verbose pkgid platzom@0.1.0
+15 verbose cwd /home/wilmer/WWW/platzom
+16 verbose Linux 4.10.0-32-generic
+17 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "build"
+18 verbose node v6.11.4
+19 verbose npm  v5.5.1
+20 error code ELIFECYCLE
+21 error errno 1
+22 error platzom@0.1.0 build: `babel src/platzom.js -d dist`
+22 error Exit status 1
+23 error Failed at the platzom@0.1.0 build script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
